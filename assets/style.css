@@ -129,8 +129,14 @@ header {
 #banner .arrow_left {
 	left: 10px;
 }
+.arrow_left:hover {
+	cursor: pointer;
+}
 #banner .arrow_right {
 	right: 10px;
+}
+.arrow_right:hover {
+	cursor: pointer;
 }
 /* Gestion des points du carrousel */
 .dots {
