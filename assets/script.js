@@ -90,16 +90,16 @@ function LeftArrowClick() {
 	// Changement phrase
 	const tagLine = slides[index].tagLine;
 	tagLineElement.innerHTML = tagLine;
-}
+};
 
 
 rightArrow.addEventListener("click", () => {
 	RightArrowClick();
-})
+});
 
 leftArrow.addEventListener("click", () => {
 	LeftArrowClick();
-})
+});
 
 
 
